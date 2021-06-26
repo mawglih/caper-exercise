@@ -28,7 +28,6 @@ const StoreFront = () => {
   const increaseQuantity = id => {
     addProducts(products.map(product => product.id === id ? {...product, quantity: product.quantity + 1} : product));
   }
-  console.log('products', products);
   return (
     <div className="container-hor">
       <div className="store-content">
