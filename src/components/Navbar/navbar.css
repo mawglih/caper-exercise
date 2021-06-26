@@ -1,0 +1,10 @@
+.navbar-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: burlywood;
+}
+.navbar-cell {
+  cursor: pointer;
+}
